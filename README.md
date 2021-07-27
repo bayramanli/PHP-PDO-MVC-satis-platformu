@@ -1,11 +1,27 @@
-Admin Giriş bilgileri
+# Satış Platformu
+
+*PHP VE PDO ile MVC mimarisine uygun bir şekilde geliştirilmiş satış platformudur.*
+
+**Projede; satış yapabilen, satışlardan doğan primleri saklayan, müşteri, kullanıcı, kullanıcı rollerini, ürün ve kategorileri barındıran bir satış platformudur.**
+
+### Veritabanı bağlantısı ve bilgileri
+Veritabanı bağlantısı için ```app/config.php``` dosyasında, aşağıdaki bilgiler düzenlenmelidir.
+
+```php
+define('DBHOST','localhost'); // veritabanı sunucu adı
+define('DBUSER','root'); // veritabanı kullanıcı adı
+define('DBPASS',''); // veritabanı şifre
+define('DBNAME','banli'); // veritabanı adı
+```
+
+### Admin Giriş bilgileri
 	Email Adresi: admin@admin.com
 	Şifre: 123456
-User Giriş Bilgileri
+### User Giriş Bilgileri
 	Email Adresi: deneme@deneme.com
 	Şifre: 123456
 
-Projenin Localhostta çalışabilmesi için aşağıdaki adımlar izlenmelidir.
+#### Projenin Localhostta çalışabilmesi için aşağıdaki adımlar izlenmelidir.
 Bu adımlar wampserver üzerinden gösteriliyor. Diğer local sunucular için adımlar benzerdir.
 
 1.) Belirtilen bu yola C:\wamp64\bin\apache\apache2.4.37\conf gidilerek httpd.conf dosyası açılır. Bu dosya içerisinde aşağıda belirtilen ifadenin önünde # işareti varsa kaldırın ve kaydedin.
