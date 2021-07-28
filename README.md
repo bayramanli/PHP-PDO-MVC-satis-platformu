@@ -21,3 +21,4 @@ define('DBNAME','banli'); // veritabanı adı
 	Email Adresi: deneme@deneme.com
 	Şifre: 123456
 
+![admin panel user](https://github.com/bayramanli/PHP-PDO-MVC-satis-platformu/blob/master/resimler/adminpanel-users.PNG)
